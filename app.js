@@ -26,7 +26,7 @@ app.use("*",function(req,res){
   res.sendFile(path + "404.html");
 });
 
-const port = process.env.port || 3000;
+const port = process.env.port || 8080;
 app.listen(port, () => {
   console.log("You did it!");
 });
