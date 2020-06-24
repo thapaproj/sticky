@@ -22,11 +22,11 @@ router.get("/contact",function(req,res){
 
 app.use("/",router);
 
-app.use("*",function(req,res){
-  res.sendFile(path + "404.html");
+app.get("*",function(req,res){
+  res.sendFile(path + "tennis.jpg");
 });
 
-const port = process.env.port || 8080;
+const port = process.env.port || 3000;
 app.listen(port, () => {
-  console.log("You did it!");
+  console.log("Server running on port 3000");
 });
