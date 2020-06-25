@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Registration Form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<script src="sample-registration-form-validation.js"></script>
+<style>
+    td{
+        height:50px;width:50px;
+    }
+</style>
+</head>
+<nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
+    <ul class="nav navbar-nav">
+   <li><a href="/">Home</a></li>
+   <li class="active"><a href="/registration">Registration<span class="sr-only">(current)</span></a></li>
+   <li><a href="/contact">Contact us</a></li>
+ </ul>
+</nav>
+<body onload="document.registration.userid.focus();">
+<h1 Align="Center">Registration Form</h1>
+
+<form name='registration'>
+<table style="width:25%" Align="Center">
+    <tr height="15">
+        <td>Last Name:</td>
+        <td><input type="text" name="lname" size="20" required/></td>
+    </tr>
+    <tr>
+        <td>First Name :</td>
+        <td><input type="text" name="fname" size="20" required/></td>
+    </tr>
+    <tr>
+        <td>Email :</td>
+        <td><input type="text" name="email" required/></td>
+    </tr>
+    <tr>
+        <td>Sex :</td>
+        <td><input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label></td>
+    </tr>
+    <tr>
+        <td>Category :</td>
+        <td><select id="cars" name="category">
+            <option value="select">Choose your category</option>
+            <option value="employee">Employee</option>
+            <option value="student">Student</option>
+                   
+          </select></td><br>
+    </tr>
+    <tr>
+        <td><button onclick="myFunction()">Submit</button></td>
+        
+    </tr>
+</table>
+ </form>
+ <script>
+    function myFunction() {
+  confirm("Thank You! Your submission is received.");
+    }
+    </script>}
+</body>
+</html>

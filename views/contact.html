@@ -2,55 +2,65 @@
 <head>
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<style>
+    h1{
+  color:#3F1A0A;
+}
+body {
+    background-color :#D3D3D3; 
+      }
+    header {
+    background-color: #D2B48C;
+    height: 150px;
+    background-image: url(views/tennis.jpg);
+    background-repeat: no-repeat;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer {
+    background-color: #D2B48C;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 42px;
+    border-top: 2px #221811 solid;
+}
+p{
+  font-style: oblique;
+  
+}
+
+</style>
 </head>
 <body>
   <div>
   <div>
+    <header><br><br>
+        <h1 Align="Center" >Summer Tennis League 2020</h1>
+      </header>
   <nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
          <ul class="nav navbar-nav">
         <li><a href="/">Home</a></li>
         <li><a href="/about">About us</a></li>
         <li class="active"><a href="/contact">Contact us<span class="sr-only">(current)</span></a></li>
+        <li><a href="https://www.rowan.edu" target="_blank">Rowan</a></li>
+
       </ul>
 </nav>
 </div>
-  <br/>
-  <form class="form-horizontal" role="form" style="width: 50%;">
-    <div class="form-group">
-        <label for="name" class="col-sm-2 control-label">First Name</label>
-        <div class="col-sm-10">
-            <input type="text" class="form-control" id="fname" name="name" placeholder="First Name" required>
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="name" class="col-sm-2 control-label">Last Name</label>
-        <div class="col-sm-10">
-            <input type="text" class="form-control" id="lname" name="name" placeholder="Last Name" value="" required>
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="email" class="col-sm-2 control-label">Email</label>
-        <div class="col-sm-10">
-            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-        </div>
-    </div>
-    <div class="form-group">
-        <label for="message" class="col-sm-2 control-label">Message</label>
-        <div class="col-sm-10">
-            <textarea class="form-control" rows="4" name="message"></textarea>
-        </div>
-    </div>
-       <div class="form-group">
-        <div class="col-sm-10 col-sm-offset-2">
-            <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-sm-10 col-sm-offset-2">
-            <! Will be used to display an alert to the user>
-        </div>
-    </div>
-</form>
-  </div>
+<table>
+    <tr>
+        <td>
+            <h3>&nbsp;201 Mullica Hill Rd<br> &nbsp;Glassboro, NJ 08028<br> &nbsp;222-3333-1234<br>&nbsp;summertennis@gmail.com</h3>
+        </td>
+        <td>
+            &nbsp;<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3069.378080569355!2d-75.1199660846255!3d39.70868517945367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6d7a8f3a0e34d%3A0xcfed32b6801c4e7b!2s201%20Mullica%20Hill%20Rd%2C%20Glassboro%2C%20NJ%2008028!5e0!3m2!1sen!2sus!4v1593051764624!5m2!1sen!2sus">
+        </iframe>
+        </td>
+    </tr>
+</table>
 </body>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><footer>
+    Copyright &copy; 2020 Thapa Sports Event <br>
+    
+    </footer>
 </html>
