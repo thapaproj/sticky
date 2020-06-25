@@ -7,14 +7,40 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 <script src="sample-registration-form-validation.js"></script>
 <style>
+    body {
+    background-color :#D3D3D3; 
+      }
+    header {
+    background-color: #D2B48C;
+    height: 150px;
+    background-image: url(views/tennis.jpg);
+    background-repeat: no-repeat;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    footer {
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: #D2B48C;
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 40px;
+    border-top: 2px #221811 solid;
+}
     td{
         height:50px;width:50px;
     }
 </style>
 </head>
+<header><br><br>
+    <h1 Align="Center" >Summer Tennis League 2020</h1>
+  </header>
 <nav class="navbar navbar-inverse" role="navigation" style="padding-left:130px;">
     <ul class="nav navbar-nav">
    <li><a href="/">Home</a></li>
+   <li><a href="/about">About Us</a></li>
    <li class="active"><a href="/registration">Registration<span class="sr-only">(current)</span></a></li>
    <li><a href="/contact">Contact us</a></li>
  </ul>
@@ -60,8 +86,13 @@
  </form>
  <script>
     function myFunction() {
-  confirm("Thank You! Your submission is received.");
+  confirm("Thank You! Your submission has been received.");
     }
     </script>}
+<footer>
+    Copyright &copy; 2020 Thapa Sports Event <br>
+    
+    </footer>
+  
 </body>
 </html>
